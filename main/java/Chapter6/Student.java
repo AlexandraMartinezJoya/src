@@ -1,3 +1,5 @@
+package Chapter6;
+
 /**
  * The student class keeps track of the following pieces of data about a student :
  * the student's name, ID number, the number of credits the student has earned
@@ -37,7 +39,7 @@ public class Student {
     public static final double CREDITS_TO_GRADUATE = 32;
 
     /**
-     * Creates a new Student object with the specified name and ID.
+     * Creates a new Chapter6.Student object with the specified name and ID.
      * @param  name The student's name as a String
      * @param ID The student's ID number as int
      */
@@ -55,7 +57,7 @@ public class Student {
     }
 
     /**
-     * Gets the ID number of this Student
+     * Gets the ID number of this Chapter6.Student
      * @return The ID number of the student
      */
     public int getID(){

@@ -1,3 +1,5 @@
+package Chapter6;
+
 import acm.program.ConsoleProgram;
 
 public class RandomCard extends ConsoleProgram {

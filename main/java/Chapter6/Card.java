@@ -1,3 +1,5 @@
+package Chapter6;
+
 import acm.util.RandomGenerator;
 
 public class Card {
@@ -16,7 +18,7 @@ public class Card {
     private String cardSuite;
 
     /**
-     *  Creates a new Card object. In order to initialize it to random values, use the drawRandomCard method on the card
+     *  Creates a new Chapter6.Card object. In order to initialize it to random values, use the drawRandomCard method on the card
      */
     public Card(){
         this.cardRank = "";
@@ -24,7 +26,7 @@ public class Card {
     }
 
     /**
-     * Creates a new Card object with the specified suite and rank.
+     * Creates a new Chapter6.Card object with the specified suite and rank.
      * @param  cardRank The card's rank as a String
      * @param cardSuite The card's suite number as String
      */
@@ -35,7 +37,7 @@ public class Card {
 
     /**
      * Generates random values for the card rank and suite
-     * @return Card
+     * @return Chapter6.Card
      */
     public Card drawRandomCard(){
        this.cardRank = generatreCardRank();
@@ -61,7 +63,7 @@ public class Card {
 
     /**
      * This method returns the card suite as a string
-     * @return String Card suite
+     * @return String Chapter6.Card suite
      */
     public String getSuite() {
         return this.cardSuite;

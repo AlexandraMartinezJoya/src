@@ -1,5 +1,7 @@
+package Chapter6;
+
 /**
- * The Rational class is used to represent rational numbers, which are defined to be the quotient of two integers
+ * The Chapter6.Rational class is used to represent rational numbers, which are defined to be the quotient of two integers
  */
 
 public class Rational {
@@ -8,20 +10,20 @@ public class Rational {
     private int num;
     private int den;
 
-    /** Creates a new Rational initialized to 0
+    /** Creates a new Chapter6.Rational initialized to 0
      */
     public Rational(){
         this(0);
     }
 
-    /** Creates a new Rational from the integer argument
+    /** Creates a new Chapter6.Rational from the integer argument
       @param n   The initial value
      */
     public Rational(int n) {
         this(n, 1);
     }
 
-    /** Creates a new Rational with the value x / y
+    /** Creates a new Chapter6.Rational with the value x / y
      * @param x The numerator of the rational number
      * @param y The denominator of the rational number
      */

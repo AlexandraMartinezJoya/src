@@ -1,5 +1,5 @@
-/**
- * File: FilledRect.java
+package Chapter6; /**
+ * File: Chapter6.FilledRect.java
  * -----------------------
  * This file defines a graphical object that appears as a filled rectangle
  */
@@ -13,7 +13,7 @@ import java.awt.*;
 public class FilledRect extends GRect {
 
     /**
-     * Creates a new FilledRect with the specified bounds
+     * Creates a new Chapter6.FilledRect with the specified bounds
      */
     public FilledRect(double x, double y, double width, double height ){
         super(x, y, width, height);
