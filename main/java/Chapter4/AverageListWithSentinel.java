@@ -16,7 +16,7 @@ public class AverageListWithSentinel extends ConsoleProgram {
                 value = readInt( "  ?  ");
             }
             double average = total / (double)count;
-            println("The total is : " + average + ".");
+            println("The average is : " + average + ".");
         }
 
         /*private constants*/

@@ -15,7 +15,7 @@ public class BouncingBallNew extends GraphicsProgram {
 
     private final int BALL_RADIUS = 60;
 
-    private final Color PURPLE = new Color(163, 73, 164);
+    private final Color PURPLE = new Color(186, 59, 186);
 
     public void run(){
         double ballInitialX = (getWidth() - 2* BALL_RADIUS) / 2;
