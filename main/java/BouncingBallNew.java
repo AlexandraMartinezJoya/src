@@ -13,7 +13,7 @@ import java.awt.*;
  */
 public class BouncingBallNew extends GraphicsProgram {
 
-    private final int BALL_RADIUS = 60;
+    private final int BALL_RADIUS = 15;
 
     private final Color PURPLE = new Color(186, 59, 186);
 
@@ -72,5 +72,15 @@ public class BouncingBallNew extends GraphicsProgram {
                 add(greenBall);
             }
         }
+    }
+
+    private double getRight(){
+        double right = 0.0;
+        return right;
+    }
+
+    private double getLeft(){
+        double left = 0.0;
+        return left;
     }
 }
