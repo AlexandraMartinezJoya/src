@@ -1,5 +1,3 @@
-package Chapter7;
-
 import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 
