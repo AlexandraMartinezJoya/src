@@ -1,9 +1,14 @@
 package Chapter2;
 import acm.graphics.GLabel;
+import acm.program.ConsoleProgram;
 
-class ILoveComputerScience {
+/***
+ * This program is saying hello to the graphic element GLabel
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 
-
+class ILoveComputerScience extends ConsoleProgram {
 
     public void run(){
         GLabel myLabel = new GLabel("I love myself and my son.");
@@ -23,7 +28,8 @@ class ILoveComputerScience {
         add(mySeventhLabel);
     }
 
-    private void add(GLabel label){
+    //Homework. For when we reach arrays, lists
+    private void add(GLabel labels){
 
     }
 }
