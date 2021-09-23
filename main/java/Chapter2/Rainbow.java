@@ -2,9 +2,14 @@ package Chapter2;
 
 import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
+import java.awt.Color;
 
-import java.awt.*;
 
+/***
+ * This program is displaying a rainbow
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class Rainbow extends GraphicsProgram {
 
     public void run(){
