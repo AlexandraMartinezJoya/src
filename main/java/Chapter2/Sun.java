@@ -1,15 +1,19 @@
 package Chapter2;
 
+
 import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
+import java.awt.Color;
 
-import java.awt.*;
-
-public class Target extends GraphicsProgram {
-
-        public void run(){
+/***
+ * This program is displaying a beautiful sun. It used to display a TARGET but we decided that approach is not helpful
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
+public class Sun extends GraphicsProgram {
+    public void run(){
             GOval outterCircle = new GOval(250, 100, 300, 300);
-            outterCircle.setColor(Color.RED);
+            outterCircle.setColor(Color.YELLOW);
             outterCircle.setFilled(true);
             add(outterCircle);
 
@@ -19,7 +23,7 @@ public class Target extends GraphicsProgram {
             add(middleCircle);
 
             GOval innerCircle = new GOval(350, 200, 100, 100);
-            innerCircle.setColor(Color.RED);
+            innerCircle.setColor(Color.YELLOW);
             innerCircle.setFilled(true);
             add(innerCircle);
         }
