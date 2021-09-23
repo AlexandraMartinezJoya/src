@@ -6,16 +6,21 @@ import acm.program.GraphicsProgram;
 
 import java.awt.*;
 
+/***
+ * This program is displaying a robot face
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class RobotFace extends GraphicsProgram {
 
     public void run(){
-        drawRobotFace();
+        drawUtopiaBot();
         drawRobotEyes();
         drawRobotNose();
         drawRobotMouth();
     }
 
-    private void drawRobotFace() {
+    private void drawUtopiaBot() {
         GRect robotFace = new GRect(200, 50, 200, 250);
         robotFace.setColor(Color.BLACK);
         robotFace.setFilled(true);
