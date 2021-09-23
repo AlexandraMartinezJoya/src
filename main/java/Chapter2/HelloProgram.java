@@ -1,28 +1,30 @@
-package Chapter2; /***
- *
- */
-
+package Chapter2;
 
 import acm.graphics.*;
 import acm.program.*;
-
 import java.awt.*;
+
+/***
+ * This program is saying hello to the graphic element GLabel
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 
 public class HelloProgram  extends GraphicsProgram {
 
     private final Color  PURPLE_COLOR = new Color(163, 73, 164);
-    private final Color PINK_RED = new Color(255,159,159);
+    private final Color PASTEL_PURPLE = new Color(207,137,245);
 
     public void run(){
-        GLabel msg = new GLabel("I Love Java, C , C++, C#, PHP, and Python", 75,  125);
-        msg.setFont("Lucida Blackletter-48");
-        msg.setColor(PURPLE_COLOR);
+        GLabel call = new GLabel("I can write code in Java, C, PHP, and Python, and ..js :(", 75,  125);
+        call.setFont("Lucida Blackletter-48");
+        call.setColor(PURPLE_COLOR);
 
-        GLabel me = new GLabel("Alexandra Martinez Joya", 600, 450);
-        msg.setFont("Lucida Blackletter-24");
-        me.setColor(PINK_RED);
+        GLabel me = new GLabel("Alexandra Martinez Joya", 178, 54);
+        me.setFont("Lucida Purpleletter-24");
+        me.setColor(PASTEL_PURPLE);
 
-        add(msg);
+        add(call);
         add(me);
     }
 }
