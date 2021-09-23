@@ -3,6 +3,11 @@ package Chapter2;
 import acm.graphics.GLine;
 import acm.program.GraphicsProgram;
 
+/***
+ * This program is displaying a tic tac toe board
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class TicTacToeBoard extends GraphicsProgram {
 
     public void run(){
