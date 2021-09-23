@@ -5,11 +5,17 @@ import acm.program.GraphicsProgram;
 
 import java.awt.*;
 
+
+/***
+ * This program is displaying three pixels Olympic Rings
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class ThreePixelOlympicRings  extends GraphicsProgram {
-    private Color olympicsBlue = new Color(14, 119, 177);
-    private Color olympicsYellow = new Color(255, 178, 60);
-    private Color olympicsGreen = new Color(8, 173, 81);
-    private Color olympicsRed = new Color(237, 54, 74);
+    private final Color olympicsBlue = new Color(14, 119, 177);
+    private final Color olympicsYellow = new Color(255, 178, 60);
+    private final Color olympicsGreen = new Color(8, 173, 81);
+    private final Color olympicsRed = new Color(237, 54, 74);
 
 
     public void run(){
