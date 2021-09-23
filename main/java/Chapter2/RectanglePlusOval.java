@@ -6,6 +6,11 @@ import acm.program.GraphicsProgram;
 
 import java.awt.*;
 
+/***
+ * This program is displaying a rectangle and a oval. textbook example
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class RectanglePlusOval extends GraphicsProgram {
 
     private final Color PINK_RED = new Color(255,159,159);
