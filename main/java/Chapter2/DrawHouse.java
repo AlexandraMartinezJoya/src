@@ -5,6 +5,12 @@ import acm.graphics.GOval;
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 
+
+/***
+ * This program draws a house at specified points on the screen.
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class DrawHouse extends GraphicsProgram  {
 
     public void run(){
