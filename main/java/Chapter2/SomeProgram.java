@@ -9,12 +9,18 @@ import acm.program.ConsoleProgram;
  * Program is Written by Alexandru Martinez, my 7 year old son, and me, Alexandra Martinez, his mother
  */
 
-public class SomeProgram extends ConsoleProgram {
+/**
+ * Now my son wants to do a class called triangle, which is fillable by color.
+ *
+ *@AlexandraMartinezJoya
+ */
 
+public class SomeProgram extends ConsoleProgram {
+    
     public void run(){
         double triangleBase = readDouble("Enter triangle base: ");
         double triangleHeight = readDouble("Enter triangle height: ");
         double areaOfTriangle = (triangleBase * triangleHeight) / 2;
-        println("The Area of the triangle is " + areaOfTriangle);
+        println("The area of the triangle is " + areaOfTriangle);
     }
 }
