@@ -5,6 +5,11 @@ import acm.program.GraphicsProgram;
 
 import java.awt.*;
 
+/***
+ * This program is the text book example of a filled rectangle
+ *
+ * Solved by @AlexandraMartinezJoya
+ */
 public class GRectExample  extends GraphicsProgram {
 
     private final Color PURPLE_COLOR = new Color(163, 73, 164);
